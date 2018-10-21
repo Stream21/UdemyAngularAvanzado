@@ -1,3 +1,35 @@
-<p>
-  progress works!
-</p>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Barra De Carga</h4>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" [attr.ariaValuenow]="progress1" aria-valuemin="0" aria-valuemax="100" [style.width]="progress1+'%'"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Leyenda</h4>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" [attr.ariaValuenow]="progress2" aria-valuemin="0" aria-valuemax="100" [style.width]="progress2+'%'"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+      <app-incrementador [progress]="50" (updateDate)="progress1=$event"></app-incrementador>
+  </div>
+  <div class="col-6">
+      <app-incrementador [progress]="30" (updateDate)="progress2=$event"></app-incrementador>
+  </div>
+</div>

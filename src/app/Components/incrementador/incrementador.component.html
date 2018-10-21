@@ -1,0 +1,18 @@
+    <div class="card">
+        <div class="card-body">
+          <h4 class="card-tittle">{{leyenda}}</h4>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-primary" type="button" (click)="cambiarValor(5)">
+                    <i class="mdi mdi-plus"></i>
+              </button>
+            </div>
+            <input #txtProgress type="number" class="form-control" name="progreso" (change)="verifyInput()" [(ngModel)]="progress" (ngModelChange)="verifyInput($event)" min="1" max="100"/>
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary" type="button" (click)="cambiarValor(-5)">
+                    <i class="mdi mdi-minus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
