@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 import { IncrementadorComponent } from '../Components/incrementador/incrementador.component';
 import { GraficaDonComponent } from '../Components/grafica-don/grafica-don.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { GraficaDonComponent } from '../Components/grafica-don/grafica-don.compo
     ProgressComponent,
     PagesComponent,
     IncrementadorComponent,
-    GraficaDonComponent
+    GraficaDonComponent,
+    AccoutSettingsComponent
   ],
   exports: [
     DashboardComponent,
