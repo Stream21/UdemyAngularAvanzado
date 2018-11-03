@@ -11,6 +11,8 @@ import { ChartsModule } from 'ng2-charts';
 import { IncrementadorComponent } from '../Components/incrementador/incrementador.component';
 import { GraficaDonComponent } from '../Components/grafica-don/grafica-don.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { ObservablesComponent } from './observables/observables.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
     PagesComponent,
     IncrementadorComponent,
     GraficaDonComponent,
-    AccoutSettingsComponent
+    AccoutSettingsComponent,
+    PromesasComponent,
+    ObservablesComponent
   ],
   exports: [
     DashboardComponent,

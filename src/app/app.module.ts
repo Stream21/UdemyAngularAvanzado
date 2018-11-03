@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
-//Servicios
+// Servicios
 import { ServicesModule } from './services/services.module';
 
 

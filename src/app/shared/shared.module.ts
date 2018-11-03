@@ -1,17 +1,17 @@
-//Modulos
+// Modulos
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 
 import { NgModule } from '@angular/core';
-import { NopagefoundComponent } from "./nopagefound/nopagefound.component";
-import { SidebarComponent } from "./sidebar/sidebar.component";
-import { HeaderComponent } from "./header/header.component";
-import { BreadcrubsComponent } from "./breadcrubs/breadcrubs.component";
+import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { HeaderComponent } from './header/header.component';
+import { BreadcrubsComponent } from './breadcrubs/breadcrubs.component';
 
 @NgModule({
 
-  imports:[
+  imports: [
     RouterModule,
     CommonModule
   ],
